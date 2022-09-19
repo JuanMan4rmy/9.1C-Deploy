@@ -1,0 +1,95 @@
+:root {
+  --blue: #61dafb;
+  --crimson: #db3052;
+}
+
+.QuestionPage * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira sans", sans-serif;
+}
+
+.QuestionPage {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.QuestionPage h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color: aqua;
+}
+
+.questions {
+  display: grid;
+  max-width: 1024px;
+  margin: 2rem auto 0;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+.question {
+  background-color: rgb(43, 43, 43);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: left;
+}
+
+.QPbuttons button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  color: var(--darker);
+  font-weight: bold;
+  text-transform: uppercase;
+
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: var(--blue);
+}
+
+.QPbuttons {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: -0.5rem;
+}
+
+.QPbuttons button {
+  margin: 0 0.5rem;
+}
+
+.QPbuttons button.remove {
+  color: var(--light);
+  background-color: var(--crimson);
+}
+
+.QuestionPage button.search {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  color: var(--light);
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: var(--crimson);
+}
+
+.QuestionPage input {
+  border-color: red;
+  outline-color: purple;
+  color: black;
+  padding: 5px 10px;
+}
+
+.QuestionPage h4 {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}

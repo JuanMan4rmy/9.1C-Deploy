@@ -1,0 +1,18 @@
+.Post button[type="submit"] {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  border-radius: 8px;
+  background-color: purple;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s ease background-color;
+}
+
+button[type="submit"]:hover {
+  background-color: aquamarine;
+}

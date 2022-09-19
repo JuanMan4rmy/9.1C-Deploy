@@ -1,0 +1,24 @@
+.Profile h1 {
+  color: aqua;
+  padding-right: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.Profile #centre {
+  margin: 0 auto;
+  display: block;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  font-weight: bold;
+  text-transform: uppercase;
+
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: var(--crimson);
+}

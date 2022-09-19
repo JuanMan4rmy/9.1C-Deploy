@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.radio-question label {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* .radio-question label[for="image"]{
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+} */
+
+.radio-question button[id="upload"] {
+  color: white;
+  border: 2px solid pink;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  background-color: red;
+  transition: 1s;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-post {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000010;
+  background-color: black;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.radio-question {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000010;
+  background-color: black;
+  border-radius: 8px;
+  margin-bottom: 0px;
+}
+
+.form-group {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  color: black;
+  padding: 5px;
+  font-size: 18px;
+  border: 1px purple;
+  margin-top: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.radio-question input[type="file"]::file-selector-button {
+  border: 2px solid #6c5ce7;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  background-color: #a29bfe;
+  color: white;
+  transition: 1s;
+}
+
+.radio-question input[type="file"] {
+  color: white;
+}
+
+.radio-question input[type="file"]::file-selector-button:hover {
+  background-color: #81ecec;
+  border: 2px solid #00cec9;
+}
